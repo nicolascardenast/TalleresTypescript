@@ -1,0 +1,92 @@
+.title img {
+    margin-right:10px;
+}
+
+.title h1, .title img {
+    display:inline-block;
+    vertical-align:middle;
+    font-family: 'Manjari', sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+* {
+    margin: 5;
+    padding: 100;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Manjari', sans-serif;
+}
+
+.table {
+    margin: 0px;
+    border: 5px solid #000000;
+    border-radius: 5px;
+    background-color: #efeded;
+    border-spacing: 50;
+    width: 500px;
+}
+
+.table td {
+    border-bottom: 10px solid #000000;
+    border-color:#bdbcbc;
+    padding:10px;
+}
+
+.table td:nth-child(2) {
+    color: rgb(4, 150, 144);
+}
+
+.table tr {
+    height: 50px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+.row {
+    margin: 30px;
+    display: flex;
+}
+
+.column {
+    flex: 30%;
+    width: 300px;
+    margin: 10px;
+    text-align: justify;
+}
+
+.div {
+    column-count: 2;
+    column-gap: 20px;
+}
+
+.card-img-top {
+    width: 80%;
+    height: 15vw;
+    object-fit: contain;
+    margin-bottom: 6px;
+}
+
+.card-title {
+    font-family: 'Manjari', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.card-text {
+    width: 80%;
+    font-size: 12px;
+    object-fit: cover;
+    margin-bottom: 6px;
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+    }
+  }
